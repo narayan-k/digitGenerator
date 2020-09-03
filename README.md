@@ -6,7 +6,7 @@ The aim of this project was to use a DCGAN to produce fake handwritten digits.
 
 The objective of the network is to produce a fake image from some random vector (z).
 
-z :right_arrow: Generator :right_arrow: Fake image
+z &#8594; Generator :right_arrow: Fake image
 
 In order to imporve the generator model we must create a discriminator network to distinguish between real and generated fake images.
 
