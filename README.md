@@ -6,15 +6,15 @@ The aim of this project was to use a DCGAN to produce fake handwritten digits.
 
 The objective of the network is to produce a fake image from some random vector (z).
 
-z &#8594; Generator :right_arrow: Fake image
+z &#8594; Generator &#8594; Fake image
 
 In order to imporve the generator model we must create a discriminator network to distinguish between real and generated fake images.
 
-z :right_arrow: Generator :right_arrow: Fake image :right_arrow: Discriminator :right_arrow: Generator loss
+z &#8594; Generator &#8594; Fake image &#8594; Discriminator &#8594; Generator loss
 
 However we must also train our discriminator network by passing real and fake images to the discriminator.
 
-Real and fake images :right_arrow: Discriminator :right_arrow: Discriminator loss
+Real and fake images &#8594; Discriminator &#8594; Discriminator loss
 
 One training step can be sumarised as follows
 1. Calculate the generator loss
